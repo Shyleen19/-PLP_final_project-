@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <title>African Inspired</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section  id="header">
+    <a href="#"><img src="logo.jpeg" class="Logo" alt="My logo for the website" width="50px"></a>
+<div>
+    <ul id="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a  href="shop.html">Shop</a></li>
+        <li><a class="active" href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="cart.html"><i class="fa-sharp fa-solid fa-bag-shopping"></i></a></li>
+    </ul>
+</div>
+</section>
+<section id="page-header" class="about-header">
+    
+    <h2>#Read More</h2>
+    <p>Know Us Today</p>
+</section>
+<section id="about-head" class="section-p1">
+    <img src="a6.jpg" alt="">
+    <div>
+        <h2>Who Are We?</h2>
+        <p>Welcome to African Ankara Outfits for Ladies, your premier destination for vibrant and stylish Ankara fashion. 
+        We are passionate about celebrating the rich cultural heritage of Africa through our exquisite collection of Ankara clothing. Our mission is to empower women by offering unique and beautifully crafted outfits that blend traditional African prints with contemporary designs. Each piece in our collection is made with the highest quality fabrics and meticulous attention to detail, ensuring you feel confident and elegant on every occasion. Whether you're looking for bold, eye-catching prints or subtle, sophisticated patterns, African Ankara Outfits for Ladies is here to provide you with fashion that speaks to your soul and enhances your beauty. Join us in embracing the essence of African elegance and style.</p>
+    
+        <br><br>
+
+        <marquee bgcolor="gray" loop="-1" scrollamount="5" width="100%">Join us in embracing the essence of African elegance and style.</marquee>
+    </div>
+
+</section>
+<section id="about-app" class="section-p1">
+    <h1>Download Our <a href="#">App</a></h1>
+    <div class="video">
+        <video autoplay muted loop src="1.mp4"></video>
+    </div>
+</section>
+<section id="features" class="section-p1">
+    <div class="fe-box">
+        <img src="f1.png" alt="free shipping feature logo">
+        <h6>Free Shipping</h6>
+    </div>
+    <div class="fe-box">
+        <img src="f5.png" alt="sale feature logo">
+        <h6>Sale Offers</h6>
+    </div>
+    <div class="fe-box">
+        <img src="f2.png" alt="online shopping feature logo">
+        <h6>Online Shopping</h6>
+    </div>
+    <div class="fe-box">
+        <img src="f4.png" alt="promotions feature logo">
+        <h6>Promotions</h6>
+    </div>
+    <div class="fe-box">
+        <img src="f6.png" alt="Support feature logo">
+        <h6>Support</h6>
+    </div>
+</section>
+<section  id="newsletter" class="section-p1 section-m1">
+    <div class="newstext">
+        <h4>Sign Up For NewsLetter</h4>
+        <p>Get Email Updates of our latest shop and <span>special offers</span></p>
+    </div>
+    <div class="form">
+        <input type="text" placeholder="Your Email Address">
+        <button class="normal">Sign Up</button>
+
+    </div>
+</section>
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="logo.jpeg" alt="" width="80px">
+            <h4>Contact Us</h4>
+            <p><strong>Adress: </strong> Mombasa Road, Street 32, Nairobi</p>
+            <p><strong>Phone:</strong>+254 743 208 323</p>
+            <p><strong>Hours</strong>9:00-18:00, Mon-Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-pinterest"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About Us</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col-install">
+            <h4>Install App</h4>
+            <p>From Apple Store or Google Play</p>
+            <div class="row">
+                <img src="app.jpg" alt="apple store logo">
+                <img src="play.jpg" alt="google play logo">
+            </div>
+            <p>Secured Payment Gateway</p>
+            <img src="pay.png" alt="Types of payment">
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 African Inspired. All rights reserved.</p>
+        </div>
+
+    </footer>
+    
+<script>
+    var MainImg = document.getElementById("MainImg");
+    var SmallImg = document.getElementsByClassName("small-img");
+
+    SmallImg[0].onclick = function(){
+        MainImg.src=SmallImg[0].src;
+    }
+    SmallImg[1].onclick = function(){
+        MainImg.src=SmallImg[1].src;
+    }
+    SmallImg[2].onclick = function(){
+        MainImg.src=SmallImg[2].src;
+    }
+    SmallImg[3].onclick = function(){
+        MainImg.src=SmallImg[3].src;
+    }
+</script>
+<script src="script.js"></script>   
+
+</body>
+</html>
