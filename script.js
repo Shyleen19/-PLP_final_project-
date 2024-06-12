@@ -28,7 +28,7 @@ const whiteButtons = document.querySelectorAll('.white');
 whiteButtons.forEach(button => {
   button.addEventListener('click', function() {
     
-    alert('gift voucher/free delivery clicked!');
+    alert('gift voucher/free delivery  !');
   });
 });
 
